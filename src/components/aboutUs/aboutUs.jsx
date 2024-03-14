@@ -9,7 +9,7 @@ const AboutUs = () => {
     <Box className='wrapper' mt={'100px'}>
       <Box ml={{base: '15px', lg: '0px'}} mr={{base: '15px', lg: '0px'}} >
         <Box ml={{base: '0px', xl: '40px'}} display={'flex'} justifyContent={{base: 'space-around', xl:'space-between'}}  color={'white'} fontWeight={'bold'} fontSize={{base: '30px' , sm: '40px'}}>
-          <Text>What People About Us</Text>
+          <Text fontSize={{base: '30px' , sm: '40px'}}>What People About Us</Text>
         </Box>
           <Box mt={'30px'} display={'flex'} justifyContent={'space-around'} alignItems={'center'} flexWrap={'wrap'} gap={'70px'}>
               <Box bg={'#1B1541'} width={'600px'} height={'300%'} display={'flex'} flexDirection={'column'} gap={'20px'} p={'35px'} rounded={'10px'} >
