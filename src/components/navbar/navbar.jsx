@@ -20,9 +20,9 @@ const Navbar = () => {
     const handleClick = (newSize) => {
         setSize(newSize)
         onOpen()
-      }
+    }
       
-      const sizes = ['xs']
+    const sizes = ['xs']
   return (
     <Box>
         <Box  className='wrapper' marginRight={{base: '15px', lg: '0px'}} paddingTop={'20px'} display={'flex'} justifyContent={'space-between'} alignItems={'center'} >
@@ -64,7 +64,7 @@ const Navbar = () => {
                             </Box>
                     </Box>
                 </Box>
-                    <Box display={{sm: 'block', lg: 'none'}} >
+                    <Box display={{base: 'block', lg: 'none'}} >
                     {sizes.map((size) => (
                         <FontAwesomeIcon  icon={faBarsStaggered} color={'white'} fontSize={{ base: '25px', sm:'30px'}} onClick={() => handleClick(size)}
                         key={size}
